@@ -1,0 +1,39 @@
+.cancha {
+    display: block;
+    float:left;
+    height: 300px;
+    width: 100%;
+    margin:0;
+    padding: 0;
+}
+.jugador{
+    display:block;
+    float:left;
+    height:150px;
+    width: 50%;
+    margin:0;
+    padding:0;
+    background: red;
+}
+.relativa{
+    position:relative;
+}
+.absoluta{
+    position:absolute;
+}
+.right{
+    right:0;
+}
+.bottom{
+    bottom:0;
+}
+.center{
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    margin:auto;
+}
+.top{
+    top:0;
+}

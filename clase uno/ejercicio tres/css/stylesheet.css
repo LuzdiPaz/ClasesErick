@@ -1,0 +1,11 @@
+.all{
+    display: block;
+    float: left;
+}
+.menu{
+    height: 50px;
+    background: pink;
+}
+.w100{
+    width: 100%;
+}

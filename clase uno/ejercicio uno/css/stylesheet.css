@@ -1,0 +1,37 @@
+.center{
+    display:block;
+    float:none;
+    margin:0 auto;
+    max-width: 1000px;
+}
+.treinta{
+    width: 33.33333%;
+}
+.cincuenta{
+    width: 50%;
+}
+.veinte{
+    width: 20%;
+}
+.cuarto{
+    width: 25%;
+}
+.trescuartos{
+    width: 75%;
+}
+.cien{
+    width: 100%;
+}
+.general{
+    display: block;
+    margin: 0;
+    padding: 0;
+    height: 100px;
+    float:left;
+}
+.rosa{
+    background: pink;
+}
+.rojo{
+    background: red;
+}

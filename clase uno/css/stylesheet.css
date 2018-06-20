@@ -1,0 +1,34 @@
+.center{
+    margin:0 auto;
+    float:none;
+    display:block;
+    max-width: 1000px;
+}
+.cien{
+    width: 100%;
+}
+.general{
+    float:left;
+    height:50px;
+    display:block;
+    margin:0;
+    padding:0;
+}
+.verde{
+    background: yellow;
+}
+.morado{
+    background: blue;
+}
+.medios{
+    width: 50%;
+}
+.cuartos{
+    width: 25%
+}
+.sextos{
+    width: 16.6666667%;
+}
+.octavos{
+    width: 12.5%;
+}
