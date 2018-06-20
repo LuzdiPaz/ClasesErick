@@ -1,0 +1,42 @@
+
+h1{
+    color: purple;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: rgb(82, 15, 95);
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 100px;
+}
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+}
+div {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    width: 500px;
+    margin: 0 auto;
+    float: none;
+    display: block;
+}
