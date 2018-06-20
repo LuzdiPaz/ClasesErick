@@ -1,0 +1,20 @@
+.bg1{
+    background: pink;
+
+}
+.bg2{
+    background: yellow;
+    height: 30px;
+}
+.bg3{
+    background: purple;
+    height: 100px;
+}
+.bg4{
+    background: blue;
+    height: 100px;
+}
+h1{
+    text-align: center;
+    color: black;
+}

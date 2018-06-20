@@ -1,0 +1,34 @@
+.bg1{
+    background: pink
+}
+.bg2{
+    background: yellow;
+}
+.bg3{
+    background: purple;
+}
+.bg4{
+    background: blue;
+}
+.bg5{
+    background: green;
+}
+.bg6{
+    background: goldenrod;
+}
+.hg1{
+    height: 100px;
+}
+.hg3{
+    height: 30px;
+}
+.hg5{
+    height: 200px;
+}
+.hgs{
+    height: 10px;
+}
+h1{
+    text-align: center;
+    color: black;
+}
