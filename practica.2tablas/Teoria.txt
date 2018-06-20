@@ -1,0 +1,32 @@
+-----> TABLAS 
+
+Antes de mostrar datos, primero debe crear la tabla que contendrá los datos utilizando el elemento <table>.
+El elemento <table> contendrá todos los datos tabulares que planea mostrar.
+
+En muchos programas que usan tablas, la tabla ya está predefinida para usted, lo que significa que contiene las filas, columnas y celdas que contendrán datos. En HTML, todos estos componentes deben ser creados.
+
+El primer paso para ingresar datos en la tabla es agregar filas usando el elemento de fila de la tabla: <tr>.
+
+Las filas no son suficientes para agregar datos a una tabla. Cada elemento de la celda también debe definirse. En HTML, puede agregar datos usando el elemento de datos de la tabla: <td>.
+
+Los datos de la tabla no tienen mucho sentido sin títulos para describir lo que representan los datos.
+
+Para agregar títulos a filas y columnas, puede usar el elemento de encabezado de tabla: <th>.
+
+El elemento de encabezado de tabla se usa como un elemento de datos de tabla, excepto con un título relevante. Al igual que los datos de la tabla, un encabezado de tabla debe colocarse dentro de una fila de la tabla.
+
+Tenga en cuenta, también, el uso del atributo de ámbito, que puede tomar uno de dos valores:
+
+row: este valor deja en claro que el encabezado es para una fila.
+col - este valor deja en claro que el encabezado es para una columna.
+
+¿Qué ocurre si la tabla contiene datos que abarcan varias columnas?
+
+Por ejemplo, un calendario personal podría tener eventos que abarquen varias horas o incluso varios días.
+
+Los datos pueden abarcar columnas utilizando el atributo "colspan". Los atributos aceptan un número entero (mayor que o igual a 1) para indicar el número de columnas que abarca.
+
+Los datos también pueden abarcar varias filas utilizando el atributo "rowspan".
+
+El atributo rowspan se usa para datos que abarcan varias filas (tal vez un evento continúa durante varias horas en un día determinado). Acepta un número entero (mayor o igual a 1) para indicar el número de filas que abarca.
+

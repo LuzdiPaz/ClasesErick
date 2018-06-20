@@ -1,0 +1,5 @@
+table  th, td,{
+  border: 1px red;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
