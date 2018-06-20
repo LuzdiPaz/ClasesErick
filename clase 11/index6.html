@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>html grid</title>
+</head>
+<style>
+    body{
+        background-image: url(img/nebulosa.jpg);
+        background-size: 100%;
+    }
+    .contenedor{
+        display: grid;
+        grid-gap:10px;
+        grid-template-columns: repeat(3,200px);
+        grid-template-rows: repeat(3,200px);
+        justify-content: center;
+    }
+    .item{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       background: rgb(30, 134, 219);
+   }
+   .item:nth-child(1){
+       grid-row: 1/2;
+       grid-column:1/4;
+       background: turquoise;
+   }
+   .item:nth-child(6){
+       grid-row: 3/4;
+       grid-column:2/4;
+       background:plum;
+   }
+</style>
+<body>
+    <div class="contenedor">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+        <div class="item">5</div>
+        <div class="item">6</div>
+    </div>
+</body>
+</html>
